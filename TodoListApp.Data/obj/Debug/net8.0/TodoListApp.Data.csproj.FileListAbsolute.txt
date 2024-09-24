@@ -1,0 +1,17 @@
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Data.deps.json
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Data.runtimeconfig.json
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Data.dll
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Data.pdb
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Models.dll
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\bin\Debug\net8.0\TodoListApp.Models.pdb
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.csproj.AssemblyReference.cache
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.AssemblyInfo.cs
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoList.0554F46B.Up2Date
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.dll
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\refint\TodoListApp.Data.dll
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.pdb
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\TodoListApp.Data.genruntimeconfig.cache
+C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\obj\Debug\net8.0\ref\TodoListApp.Data.dll

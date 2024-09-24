@@ -1,0 +1,127 @@
+﻿@model IEnumerable<TodoListApp.Models.TodoItem>
+
+@{
+    ViewData["Title"] = "Tasks";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Tasks</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Tasks</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Task List</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addTaskModal">
+                                Add Task
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Name</td>
+                                        <td>@(item.IsComplete ? "Complete" : "Incomplete")</td>
+                                        <td>
+                                            <form asp-action="Edit" method="post" style="display:inline;">
+                                                <input type="hidden" name="Id" value="@item.Id" />
+                                                <input type="hidden" name="Name" value="@item.Name" />
+                                                <input type="hidden" name="IsComplete" value="@(item.IsComplete ? "false" : "true")" />
+                                                <button type="submit" class="btn btn-sm btn-warning">
+                                                    @(item.IsComplete ? "Mark as Incomplete" : "Mark as Complete")
+                                                </button>
+                                            </form>
+                                            <form asp-action="Delete" method="post" style="display:inline;">
+                                                <input type="hidden" name="id" value="@item.Id" />
+                                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Task Modal -->
+<div class="modal fade" id="addTaskModal" tabindex="-1" role="dialog" aria-labelledby="addTaskModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addTaskModalLabel">Add New Task</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @* Especificar o modelo do formulário *@
+                <form asp-action="Create" method="post" asp-controller="Todo">
+                    <div class="form-group">
+                        <label for="Name">Task Name</label>
+                        <input type="text" class="form-control" id="Name" name="Name" required />
+                        
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Task</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <script src="~/dist/js/adminlte.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const forms = document.querySelectorAll('form');
+            forms.forEach(form => {
+                form.addEventListener('submit', function (event) {
+                    const action = form.getAttribute('action');
+                    const nameInput = form.querySelector('#Name');
+
+                    // Verifica se a ação do formulário é 'Todo/Create'
+                    if (action && action.includes('Todo/Create')) {
+                        if (!nameInput.value.trim()) {
+                            event.preventDefault();
+                            alert('The Name field is required.');
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+}

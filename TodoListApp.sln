@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListApp", "TodoListApp\TodoListApp.csproj", "{0AAADE3C-61E1-4A2C-8EAA-8E939E90455A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApp.Data", "TodoListApp.Data\TodoListApp.Data.csproj", "{E3E548F6-881A-4F3C-A588-52A2422C053E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApp.Models", "TodoListApp.Models\TodoListApp.Models.csproj", "{F8FABC27-A4CF-44FA-A9B6-B8936636A5F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApp.Business", "TodoListApp.Business\TodoListApp.Business.csproj", "{B07EC7C7-FE51-4A3B-B961-04C43869666C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B3B2EAC-DC8F-45B2-AABA-7723C16889C6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApp.Test", "TodoListApp.Test\TodoListApp.Test.csproj", "{73EE03FC-A47C-4416-8571-F52CB35C1DEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAADE3C-61E1-4A2C-8EAA-8E939E90455A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAADE3C-61E1-4A2C-8EAA-8E939E90455A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAADE3C-61E1-4A2C-8EAA-8E939E90455A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAADE3C-61E1-4A2C-8EAA-8E939E90455A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E548F6-881A-4F3C-A588-52A2422C053E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E548F6-881A-4F3C-A588-52A2422C053E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E548F6-881A-4F3C-A588-52A2422C053E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E548F6-881A-4F3C-A588-52A2422C053E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FABC27-A4CF-44FA-A9B6-B8936636A5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FABC27-A4CF-44FA-A9B6-B8936636A5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FABC27-A4CF-44FA-A9B6-B8936636A5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FABC27-A4CF-44FA-A9B6-B8936636A5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07EC7C7-FE51-4A3B-B961-04C43869666C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07EC7C7-FE51-4A3B-B961-04C43869666C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07EC7C7-FE51-4A3B-B961-04C43869666C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07EC7C7-FE51-4A3B-B961-04C43869666C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EE03FC-A47C-4416-8571-F52CB35C1DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EE03FC-A47C-4416-8571-F52CB35C1DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EE03FC-A47C-4416-8571-F52CB35C1DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EE03FC-A47C-4416-8571-F52CB35C1DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1048B997-5114-4E80-B983-14A91D9779B9}
+	EndGlobalSection
+EndGlobal
