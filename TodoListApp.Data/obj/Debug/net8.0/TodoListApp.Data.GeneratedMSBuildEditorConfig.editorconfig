@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TodoListApp.Data
-build_property.ProjectDir = C:\Users\Rafael\Documents\project\TodoListApp\TodoListApp.Data\
+build_property.ProjectDir = C:\Users\Rafael\Documents\project\github\TodoListApp.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

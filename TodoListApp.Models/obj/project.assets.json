@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\project\\TodoListApp\\TodoListApp.Models\\TodoListApp.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\project\\github\\TodoListApp.Models\\TodoListApp.Models.csproj",
       "projectName": "TodoListApp.Models",
-      "projectPath": "C:\\Users\\Rafael\\Documents\\project\\TodoListApp\\TodoListApp.Models\\TodoListApp.Models.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Documents\\project\\github\\TodoListApp.Models\\TodoListApp.Models.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Documents\\project\\TodoListApp\\TodoListApp.Models\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Documents\\project\\github\\TodoListApp.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

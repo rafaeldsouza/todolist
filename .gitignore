@@ -1,0 +1,12 @@
+# Ignorar a pasta de build
+/build/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+
+.vs/
+
+.obj/

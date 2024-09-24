@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2+9pCdC5eFp79KTIdXLsi3bdXHybU2q25G7HTIl5Nu5Wqb/34HJgvNkHAU3Os5yLBouUthCnLMJpuro1SkqPeQ==",
+  "dgSpecHash": "vehgioyANN7/GMTfCfSilYfz0g6xXrOWVM0Jpy7puUGhvFxl8/tNaydKqCUFrm7U56KVFovCpX02PW7pNkoJuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\project\\TodoListApp\\TodoListApp\\TodoListApp.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\project\\github\\TodoListApp\\TodoListApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

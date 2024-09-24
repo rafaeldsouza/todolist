@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wqPlREv8cXLQwTuf5p5YhtC0UfW6poSzMSAi393YXV7svxRmp1a5TNm3LOJ1Oy78f0dT0GntQM14neFOkbMKFA==",
+  "dgSpecHash": "bEa3ERGs5S0J2Tac9V8C3XnWhqjIF60h+SlkgIx8G68++klSWr3/MzU+3kX18DgwmhfAw16zJGBjJcBeyvDG5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\project\\TodoListApp\\TodoListApp.Models\\TodoListApp.Models.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\project\\github\\TodoListApp.Models\\TodoListApp.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

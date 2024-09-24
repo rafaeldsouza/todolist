@@ -51,7 +51,7 @@ The solution is divided into several projects, each with a specific responsibili
 2. **Build and Run the Docker Containers**
 The project includes a docker-compose.yml file that sets up the application and a SQL Server instance.
    ```bash
-   docker-compose up --build
+   docker-compose up --build -d
 
 3. **Access the Application**
 Once the containers are up and running, you can access the application at `http://localhost:8080`
